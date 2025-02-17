@@ -1,0 +1,135 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    /*normalmente é feito para zerar o que o navegador pré configura*/
+    padding: 0;
+    /*normalmente é feito para zerar o que o navegador pré configura*/
+    box-sizing: border-box;
+}
+
+header {
+    margin: 44px 0 144px 76px;
+    /*aqui foi utilizado o atalho relógio*/
+
+}
+
+.Link-header {
+    font-weight: 600px;
+    font-size: 24px;
+    line-height: 29.26px;
+    color: #989d9c;
+    cursor: pointer;
+    /*essa opção muda o icone do mouse quando passa no campo*/
+    margin-right: 23px;
+}
+
+.button-header {
+    background: #665ae1;
+    border-radius: 20.5px;
+    width: 130px;
+    height: 41px;
+    font-weight: 600px;
+    font-size: 24px;
+    line-height: 29.26px;
+    color: #ffffff;
+    border: none;
+    /*Essa configuração é quando não quero nenhuma borda*/
+    cursor: pointer;
+}
+
+.img-log {
+    width: 568px;
+    height: 500px;
+    margin-left: 125px;
+    display: inline-block;
+}
+
+section {
+    display: inline-block;
+    margin-left: 86px;
+
+}
+
+h1 {
+    font-weight: 900px;
+    font-size: 100px;
+    line-height: 121.9px;
+    color: #515151;
+
+}
+
+h2 {
+    font-weight: 500px;
+    font-size: 58px;
+    line-height: 70.7px;
+    color: #515151;
+}
+
+p {
+    font-weight: 400px;
+    font-size: 24px;
+    line-height: 29.26px;
+    color: #848484;
+    width: 515px;
+    margin-top: 32px;
+    margin-bottom: 65px;
+}
+
+.button-explorer {
+    background: #adff00;
+    border-radius: 20.5px;
+    width: 239px;
+    height: 64px;
+    font-weight: 700px;
+    font-size: 28px;
+    line-height: 34.13px;
+    color: #000000;
+    border: none;
+    /*Essa configuração é quando não quero nenhuma borda*/
+    cursor: pointer;
+    filter: drop-shadow(0px 4px 4px rgb(0, 0, 0, 0.25));
+}
+
+@media screen and (max-width: 800px) {
+    header {
+        display: none;
+
+    }
+
+    .img-log {
+        display: block;
+        width: 354px;
+        height: 317px;
+        margin: 149px auto 24px;
+
+    }
+
+
+    h1 {
+        width: 263px;
+        height: 52px;
+        font-weight: 900px;
+        font-size: 50px;
+        inline-size: 60.95px;
+   
+
+    }
+
+    h2 {
+        width: 232px;
+        height: 37px;
+        font-weight: 500px;
+        font-size: 30px;
+        inline-size: 36.57px;
+     
+    }
+
+    p {
+        display: none;
+    }
+
+    .button-explorer {
+    margin-bottom: 133px;
+}
+
+}
