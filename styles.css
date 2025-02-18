@@ -14,7 +14,7 @@ header {
 }
 
 .Link-header {
-    font-weight: 600px;
+    font-weight: 600;
     font-size: 24px;
     line-height: 29.26px;
     color: #989d9c;
@@ -28,7 +28,7 @@ header {
     border-radius: 20.5px;
     width: 130px;
     height: 41px;
-    font-weight: 600px;
+    font-weight: 600;
     font-size: 24px;
     line-height: 29.26px;
     color: #ffffff;
@@ -51,7 +51,7 @@ section {
 }
 
 h1 {
-    font-weight: 900px;
+    font-weight: 900;
     font-size: 100px;
     line-height: 121.9px;
     color: #515151;
@@ -66,7 +66,7 @@ h2 {
 }
 
 p {
-    font-weight: 400px;
+    font-weight: 400;
     font-size: 24px;
     line-height: 29.26px;
     color: #848484;
@@ -80,7 +80,7 @@ p {
     border-radius: 20.5px;
     width: 239px;
     height: 64px;
-    font-weight: 700px;
+    font-weight: 700;
     font-size: 28px;
     line-height: 34.13px;
     color: #000000;
@@ -93,7 +93,6 @@ p {
 @media screen and (max-width: 800px) {
     header {
         display: none;
-
     }
 
     .img-log {
@@ -101,27 +100,28 @@ p {
         width: 354px;
         height: 317px;
         margin: 149px auto 24px;
-
     }
-
 
     h1 {
         width: 263px;
         height: 52px;
-        font-weight: 900px;
+        font-weight: 900;
         font-size: 50px;
-        inline-size: 60.95px;
-   
-
+        /* Ou considere unidades relativas */
+        line-height: 60.95px;
+        text-align: center;
+        margin-top: 24px;
     }
 
     h2 {
         width: 232px;
         height: 37px;
-        font-weight: 500px;
+        font-weight: 500;
         font-size: 30px;
-        inline-size: 36.57px;
-     
+        /* Ou considere unidades relativas */
+        line-height: 36.57px;
+        text-align: center;
+        margin-top: 7px;
     }
 
     p {
@@ -129,7 +129,8 @@ p {
     }
 
     .button-explorer {
-    margin-bottom: 133px;
-}
-
+        width: 239px;
+        height: 64px;
+        margin-top: 47px;
+    }
 }
